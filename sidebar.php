@@ -17,5 +17,6 @@
         </section>
 
     <?php endif; ?>
+    
 </aside>
 <!-- /#sidebar -->

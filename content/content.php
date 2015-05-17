@@ -41,11 +41,11 @@
     <div>
         <div>
         <?php if ( is_single() || is_page() ) : ?>
+            <?php the_content(); ?>
+        <?php else : ?>
             <div class="post-excerpt <?php echo $id; ?>">
                 <?php the_excerpt(); ?>
             </div>
-        <?php else : ?>
-            <?php the_content(); ?>
         <?php endif; ?>
         </div>
     </div>

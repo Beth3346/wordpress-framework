@@ -15,7 +15,7 @@
             <?php endif; ?>
         </footer>
         <small class="copyright">
-            <?php bloginfo(); ?> &copy; 2012 - <?php echo date( 'Y' ); ?>
+            <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>
             All Rights Reserved. - WordPress Theme by: <a href="http://www.elizabeth-rogers.com">Elizabeth Rogers</a>
             <!-- wp_footer -->
             <?php wp_footer(); ?>
