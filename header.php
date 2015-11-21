@@ -45,7 +45,7 @@
         <div class="logo">
             <!-- add logo background image images/logo.png -->
             <h1 class="site-name"><a href="<?php bloginfo( 'url' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-            <h2 class="site-description" ><?php bloginfo( 'description' ); ?></h2>           
+            <h2 class="site-description" ><?php bloginfo( 'description' ); ?></h2>
         </div>
         <div class="navigation-holder">
             <nav id="main-menu" role="navigation">
@@ -58,6 +58,6 @@
                         'menu_class' => 'main-nav'
                     )
                 ); ?>
-            </nav>            
+            </nav>
         </div>
     </header>
